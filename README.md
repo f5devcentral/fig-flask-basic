@@ -23,7 +23,7 @@ docker build -t fig-flask-basic .
 ## Run Your f5-icontrol-gateaway Application
 
 ```bash
-docker run --rm -p 8443:443 --name fig-flask-basic fig-express-flask:latest
+docker run --rm -p 8443:443 --name fig-flask-basic fig-flask-basic:latest
 ```
 
 You should then be able to access your application at:
