@@ -11,13 +11,21 @@ The `unit_config.conf` file provides the needed route and application informatio
 ## Run Your Application Locally
 
 ```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 python3 app.py
+deactivate
 ```
 
 ## Build Your f5-icontrol-gateway Application Container
 
 ```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 docker build -t fig-flask-basic .
+deactivate
 ```
 
 ## Run Your f5-icontrol-gateaway Application
