@@ -1,4 +1,4 @@
-# Express Hello World for the f5-icontrol-gateway
+# Flask Hello World for the f5-icontrol-gateway
 
 This template application is the minimal project required to publish an a python flask WSGI app as an nginx unit application into the [f5-icontrol-gateway](https://hub.docker.com/r/f5devcentral/f5-icontrol-gateway) container.
 
